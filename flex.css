@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.second {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.second a {
+    text-decoration: none;
+    color: white;
+}
+section {
+    margin-top: 100px;
+}
+.t {
+   
+    text-align: center;
+  
+}
+.head {
+    font-size: 50px;
+}
+img {
+    width: 300px;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: gold;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.three {
+    width: 35%;
+}
+.four {
+    width: 50%;
+    text-align: center;
+}
+.main1 {
+    margin: 100PX 50PX;
+}
+.main5 {
+    display: flex;
+    justify-content: center;
+    
+}
+.a1 {
+    width: 200px;
+    height: 350px;
+    border: 2px solid gold;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+}
+.c1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.f {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 600px;
+    height: 2px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+.main2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.main3 {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+span {
+    color: gold;
+}
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
